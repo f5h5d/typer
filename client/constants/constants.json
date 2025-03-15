@@ -1,0 +1,172 @@
+{
+  "comment1": "General:",
+
+  "_comment": "NEXT SECTION IS FOR SETTINGS.JSX:",
+  "BASE_THEME": {
+    "fonts": {
+      "main": "Rubik",
+      "typingText": "JETBRAINS_MONO"
+    },
+    "allFonts": {
+      "ANONYMOUS_PRO": "/Fonts/Anonymous_Pro/anonymous-pro-v21-latin-regular.woff2",
+      "AZERET_MONO": "/Fonts/Azeret_Mono/azeret-mono-v18-latin-regular.woff2",
+      "B612_MONO": "/Fonts/B612_Mono/b612-mono-v14-latin-regular.woff2",
+      "DM_MONO": "/Fonts/DM_Mono/dm-mono-v14-latin-regular.woff2",
+      "FIRA_CODE": "/Fonts/Fira_Code/fira-code-v22-latin-regular.woff2",
+      "IBM_PLEX_MONO": "/Fonts/IBM_Plex_Mono/ibm-plex-mono-v19-latin-regular.woff2",
+      "INCONSOLATA": "/Fonts/Inconsolata/inconsolata-v32-latin-regular.woff2",
+      "JETBRAINS_MONO": "/Fonts/JetBrains_Mono/jetbrains-mono-v20-latin-regular.woff2",
+      "ROBOTO_MONO": "/Fonts/Roboto_Mono/roboto-mono-v23-latin-regular.woff2",
+      "SPACE_MONO": "/Fonts/Space_Mono/space-mono-v15-latin-regular.woff2"
+    },
+    "fontSizes": {
+      "typingText": "1.1rem",
+      "label": "1rem",
+      "largeLabel": "2rem",
+      "logo": {
+        "default": "2.4rem",
+        "sm": "2rem"
+      },
+      "text": "0.75rem",
+      "navIcons": "0.9rem",
+      "mainText": {
+        "default": "5rem",
+        "md": "4rem",
+        "sm": "2.5rem",
+        "xs": "2rem"
+      }
+    },
+    "breakpoints": {
+      "xs": "480px",
+      "sm": "768px",
+      "md": "1024px",
+      "lg": "1440px"
+    }
+  },
+  "DARK_THEME": {
+    "colors": {
+      "mainBackground": "#121212",
+      "lightBackground": "#242424",
+      "mediumBackground": "#161515",
+      "darkBackground": "#0a0a0a",
+      "accent": "#007BFF",
+      "textDark": "#36424f",
+      "text": "#ffffff",
+      "red": "#930707",
+      "special": "#FFD700"
+    }
+  },
+  "CYBER_PUNK_THEME": {
+    "colors": {
+      "mainBackground": "#0d0d0d",
+      "lightBackground": "#1a1a1a",
+      "mediumBackground": "#252525",
+      "darkBackground": "#080808",
+      "accent": "#ff007b",
+      "textDark": "#ffcc00",
+      "text": "#00ffff",
+      "red": "#ff3131",
+      "special": "#8d00ff"
+    }
+  },
+  "SOLARIZED_DARK_THEME": {
+    "colors": {
+      "mainBackground": "#002b36",
+      "lightBackground": "#073642",
+      "mediumBackground": "#0a3a42",
+      "darkBackground": "#001f27",
+      "accent": "#268bd2",
+      "textDark": "#839496",
+      "text": "#fdf6e3",
+      "red": "#dc322f",
+      "special": "#b58900"
+    }
+  },
+  "NORD_THEME": {
+    "colors": {
+      "mainBackground": "#2e3440",
+      "lightBackground": "#3b4252",
+      "mediumBackground": "#38424d",
+      "darkBackground": "#242933",
+      "accent": "#88c0d0",
+      "textDark": "#5e81ac",
+      "text": "#eceff4",
+      "red": "#bf616a",
+      "special": "#ebcb8b"
+    }
+  },
+  "LIGHT_THEME": {
+    "colors": {
+      "mainBackground": "#f7f7f5",
+      "lightBackground": "#eceae6",
+      "mediumBackground": "#dcd9d4",
+      "darkBackground": "#c2bfb8",
+      "accent": "#569cd6",
+      "textDark": "#3d3d3d",
+      "text": "#3c3c3c",
+      "red": "#d65f5f",
+      "special": "#e3b23c"
+    }
+  },
+  "FOREST_THEME": {
+    "colors": {
+      "mainBackground": "#1b2b2b",
+      "lightBackground": "#2d3d3a",
+      "mediumBackground": "#374940",
+      "darkBackground": "#0f1a17",
+      "accent": "#4caf50",
+      "textDark": "#a3b18a",
+      "text": "#e8f5e9",
+      "red": "#a93f3f",
+      "special": "#c8a035"
+    }
+  },
+  "THEMES": {
+    "DARK_THEME": {
+      "background": "#121212",
+      "text": "#ffffff"
+    },
+    "CYBER_PUNK_THEME": {
+      "background": "#0d0d0d",
+      "text": "#00ffff"
+    },
+    "SOLARIZED_DARK_THEME": {
+      "background": "#002b36",
+      "text": "#fdf6e3"
+    },
+    "NORD_THEME": {
+      "background": "#2e3440",
+      "text": "#eceff4"
+    },
+    "LIGHT_THEME": {
+      "background": "#f7f7f5",
+      "text": "#3c3c3c"
+    },
+    "FOREST_THEME": {
+      "background": "#1b2b2b",
+      "text": "#e8f5e9"
+    }
+  },
+
+  "_comment_": "NEXT SECTION ARE TYPING CONSTANTS",
+  "GAME_MODES": {
+    "SANDBOX": 0,
+    "MULTIPLAYER": 1,
+    "PRIVATE": 2
+  },
+  "TYPING_TYPE": {
+    "QUOTES": 0,
+    "WORDS": 1
+  },
+
+  "__comment": "NEXT SECTION FOR NAVIGATION",
+  "PAGES": {
+    "HOME": 0,
+    "QUOTE": 1,
+    "DICTIONARY": 2,
+    "PRIVATE": 3,
+    "SANDBOX": 4,
+    "STATS": 5,
+    "SETTINGS": 6
+  }
+}

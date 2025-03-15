@@ -1,0 +1,43 @@
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+https://github.com/lukePeavey/quotable
+TYPING SANDBOX
+
+BUGS TO FIX:
+
+- Sometimes typing text is not same for all users (DONEEEEEEEEE)
+  - sometimes it doesnt even appear (DONEEEEEEEEE)
+- Pressing next race for private race is completely bugged, and also it allows people that are not the leader to start new race... (DONEEEEEEEEE)
+- After user verifies and then signs in there is an error (DONEEEEEEEEE)
+- ON MOBILE IT ISNT ALWAYS FOCUSED ON THE TYPING INPUT AND ALSO IT SHOWS ANOTHER CURSOR THAT SHOULD NOT SHOW FOR THE HIDDEN INPUT
+- ON MOBILE WHEN YOU GO TO A TYPING PAGE IT FOR SOME REASON SHOWS UP AS ZOOMED AND YOU HAVE TO ZOOM OUT
+- LOGOUT DOES NOT WORK => TOKEN COOKIE IS NOT BEING DELETED (DONEEEEEEEEE)
+- RACE COMPLETED PAGE USES PERCENTAGES FOR VERTICAL SO WHEN YOU MAKE IT SMALL VERTICALLY IT DOES NOT LOOK AS INTENDED (DONEEEEEEEEE)
+- WHEN TYPING IF LETTER IS ON TEH VERY VERY VERY VERY EDGE OF TYPING AREA ON THE RIGHT IT WONT TYPE (DONEEEEEEEEE)
+- MULITPLAYER HAS TWO RELOAD LISTENERS WHEN IT SHOULD HAVE ONE (DONEEEEEEEEE)
+- NUMBERINFO PAGE CONSTANTLY RERENDERING (DONEEEEEEEEE)
+- WHEN YOU FINISH A MULTIPLAYER RACE ADN CLICK THE NAV BUTTON FOR THE SAME OR TEH OTHER MULTIPLAYER IT DOESNT WORK (DONEEEEEEEEE)
+
+
+
+
+
+THINGS TO DO:
+ - ADD RANKED (MAYBE FOR SECOND RELEASE)
+ - ADD FORGOT PASSWORD ( DONEEEEE )
+ - ADD EVERYTHING TO CONSTANTS.JSON FILE ( DONEEEEE )
+ - TURN LAST HOUR LEADERBOARD INTO ALL TIME LEADERBOARD ( DONEEEEE )
+
+FOR SECOND RELEASE:
+ - MAKE IT SO YOU CAN HOVER OVER OPPONENTS TO SEE THEIR STATS (DONE FOR FIRST CUZ YA)
+ - MAKE GOOGLE AUTH
+ - ADD MORE SETTINGS
+ - RE-ADD LAST HOUR LEADERBOARD
+ - 

@@ -1,0 +1,42 @@
+{
+  "comment1": "General:",
+  
+  "STAT_OPTIONS": {
+    "GENERAL": 0,
+    "UNRANKEDQ": 1,
+    "UNRANKEDD": 2
+  },
+
+  "_comment": "NEXT SECTION IS FOR SETTINGS.JSX:",
+  "DEFAULT_SETTINGS": {
+    "cursorType": "pipe",
+    "theme": "DARK_THEME",
+    "fontSize": 1.1,
+    "font": "JETBRAINS_MONO"
+  },
+  "STARTER_RANK_RATING": 400,
+
+  "_comment_": "NEXT SECTION ARE TYPING CONSTANTS",
+  "GUEST_STAT_INFO": {
+    "averageWpm": 40,
+    "averageAccuracy": 0,
+    "totalRaces": 0,
+    "highestWpm": 40,
+    "totalRacesWon": 0,
+    "mostRecentWpm": 0,
+    "mostRecentAccuracy": 0,
+    "lastTenRacesWpm": 40,
+    "lastTenRacesAccuracy": 0,
+    "guest": true
+  },
+  "GAME_MODES": {
+    "SANDBOX": 0,
+    "MULTIPLAYER": 1,
+    "PRIVATE": 2
+  },
+  "TYPING_TYPE": {
+    "QUOTES": 0,
+    "WORDS": 1
+  }
+
+}

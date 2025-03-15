@@ -115,6 +115,7 @@ const TypingSection = ({ typingRef }) => {
             {getStyledText(typingText, typingRef, typingTextRef, wordsTyped, wordsPerLine, cursorRef)}
           </div>
           <textarea
+            spellcheck="false"
             onBlur={(e) => e.target.focus()}
             onChange={(e) => updateText(e, typingRef, typingText, dispatch, wordsTyped, incorrectText, mistakes, wpmRecord, typedAtAll, wpm, startTime, typingType, selectedLength, isMultiplayer, hasRaceStarted, mistakesList, isNewLine)}
             onKeyDown={(e) => checkBeforeKeyPress(e, incorrectText, typingText, wordsTyped, isMultiplayer, hasRaceStarted, typingRef, typingTextRef, cursorRef, dispatch)}
